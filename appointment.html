@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assest/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="assest/css/animate.min.css" />
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css" />
+    <script src="assest/js/jquery.min.js"></script>
+
+    <script src="assest/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Barbers Shop</title>
+  </head>
+  <body>
+   
+
+    <div class="container1">
+      <div class="content">
+        <header>
+          <div class="logo">
+            Morack
+            <p>CUT</p>
+          </div>
+          <nav class="nav-1">
+            <ul class="nav-bar1">
+              <li class="navlist1"><a href="index.html">HOME</a></li>
+              <li class="navlist1"><a href="">ABOUT</a></li>
+              <li class="navlist1"><a href="">SERVICES</a></li>
+              <li class="navlist1"><a href="">CONTACT</a></li>
+              <li class="navlist1"><a href="">GALLERY</a></li>
+             
+            </ul>
+          </nav>
+
+          <div id="menu" class = "barmenu" onclick = "showActive()">
+            <div class = "bar01"></div>
+            <div class = "bar02"></div>
+            <div class = "bar03"></div>
+            </div>
+        </header>
+      </div>
+
+    
+     <section class="appointment">
+      <div class="appointmentContent">
+        <form action="">
+          <h1>MORACK APPOINTMENT BOOKING</h1>
+          <br>
+          <div class="name1">
+            <label>Enter Name</label>
+            <input type="text" placeholder="" name="username" required>
+          </div>
+          <br><br>
+
+          <div class="name1">
+            <label>Enter Email</label>
+            <input type="email" name="email" required>
+          </div>
+          <br><br>
+          <div class="name1"> 
+            <label>Phone Number</label>
+            <input type="tel" name="tel" required>
+          </div>
+          <br><br>
+          <div class="name1"> 
+            <label>Select Date</label>
+            <input type="date" name="date" required></div>
+            <br><br>
+            
+          <div class="name1">
+            <label>Enter Address</label>
+            <input type="text" name="address" required >
+          </div>
+          <br><br><br>
+          <div> <h3>Leave a comment for the barber</h3>
+          <textarea name="textarea" id=""  ></textarea></div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+
+     </section>
+      <section class="price-plan">
+        <div class="price">
+          <div class="priceImg">
+            <img src="assest/media/about.jpg" alt="" />
+          </div>
+          <div class="price-text">
+            <h3>WORKING HOURS</h3>
+            <h2>CHECK OUT OUR BARBING SCHEDULE & HOME SERVICE TIME</h2>
+            <div class="priceTag">
+              <p>MONDAY</p>
+              <p>9:00AM - 9:00PM</p>
+            </div>
+            <div class="priceTag">
+              <p>TUESDAY</p>
+              <p>9:00AM - 9:00PM</p>
+            </div>
+            <div class="priceTag">
+              <p>WEDNESSDAY</p>
+              <p>9:00AM - 9:00PM</p>
+            </div>
+            <div class="priceTag">
+              <p>THURSDAY</p>
+              <p>8:00AM - 10:00PM</p>
+            </div>
+            <div class="priceTag">
+              <p>FRIDAY</p>
+              <p>8:00AM - 11:00PM</p>
+            </div>
+            <div class="priceTag">
+              <p>SARTURDAY</p>
+              <p>8:00AM - 12:00PM</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="textimonial">
+        <div class="ourtextimonial">
+          <h2>WHAT PEOPLE SAY ABOUT US!</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="carousel slide"
+                data-ride="carousel"
+                id="quote-carousel"
+              >
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner text-center">
+                  <!-- Quote 1 -->
+                  <div class="item active">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. !
+                          </p>
+                          <small>Someone famous</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 2 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur.
+                          </p>
+                          <small>Someone famous</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 3 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. .
+                          </p>
+                          <small>Someone famous</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+                <!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#quote-carousel"
+                    data-slide-to="0"
+                    class="active"
+                  >
+                    <img
+                      class="img-responsive"
+                      src="assest/media/nicehair1.png"
+                      alt=""
+                    />
+                  </li>
+                  <li data-target="#quote-carousel" data-slide-to="1">
+                    <img
+                      class="img-responsive"
+                      src="assest/media/nicehair2.png"
+                      alt=""
+                    />
+                  </li>
+                  <li data-target="#quote-carousel" data-slide-to="2">
+                    <img
+                      class="img-responsive"
+                      src="assest/media/nicehair3.png"
+                      alt=""
+                    />
+                  </li>
+                </ol>
+
+                <!-- Carousel Buttons Next/Prev -->
+                <a
+                  data-slide="prev"
+                  href="#quote-carousel"
+                  class="left carousel-control"
+                  ><i class="fa fa-chevron-left"></i
+                ></a>
+                <a
+                  data-slide="next"
+                  href="#quote-carousel"
+                  class="right carousel-control"
+                  ><i class="fa fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footerText">
+          <div class="getIntouch">
+            <h2>GET IN TOUCH</h2>
+            <div class="icons1">
+              <span ><box-icon name='map' animation='tada' color='#de1c12' ></box-icon></span>
+              <p>6 Uratta Road MCC</p>
+            </div>
+            <div class="icons1">
+              <span><box-icon name='phone' type='solid' animation='tada' color='#de1c12' ></box-icon></span>
+              <p>01234567890</p>
+            </div>
+            <div class="icons1">
+              <span><box-icon name='envelope' type='solid' animation='tada' color='#de1c12' ></box-icon></span>
+              <p>info@examlple.com</p>
+            </div>
+          </div>
+          <div class="quickLinks">
+            <h2>QUICK LINKS</h2>
+            <div class="linksa">
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+            <a href="">Our services</a> 
+            <a href="">Terms & Conditions</a>
+            <a href="">Support</a>
+          </div>
+          </div>
+          <div class="newsLetters">
+            <h2>NEWSLETTER</h2>
+            <form action="">
+              <div class="formInput">
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+              </div>
+            </form>
+
+            <div class="icons">
+              <span><box-icon name='twitter' type='logo' flip='horizontal' animation='tada' color='#de1c12' ></box-icon></span>
+              <span><box-icon name='facebook' type='logo' animation='tada' flip='horizontal' color='#de1c12' ></box-icon></span>
+              <span><box-icon name='youtube' type='logo' animation='tada' flip='horizontal' color='#de1c12' ></box-icon></span>
+              <span><box-icon name='linkedin-square' type='logo' animation='tada' flip='horizontal' color='#de1c12' ></box-icon></span>
+              <span><box-icon name='instagram' type='logo' animation='tada' flip='horizontal' color='#de1c12' ></box-icon></span>
+            </div>
+          </div>
+        </div>
+        <p style="color: #7a7272;">@ 2023 barbers shop</p>
+      </footer>
+    </div>
+
+    <script src="assest/js/script.js"></script>
+  </body>
+</html>
